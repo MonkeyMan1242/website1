@@ -1,0 +1,27 @@
+/* Comment gaming */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-decoration: underline;
+}
+p {
+    color:yellow;
+}
+/* eg. <p class="first"> */
+.first {
+    color:royalblue;
+}
+ol {
+    text-decoration:underline;
+}
+.days {
+    font-size:large;
+}
+/* CSS CODE FOR CHANGING nTH ENTRY IN AN ORDERED OR UNORDERED LIST */
+.days li:nth-child(3) {
+    background-color:white;
+    color:royalblue;
+}
